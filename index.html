@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdul Latif | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Top Navigation -->
+    <header class="top-nav">
+        <div class="logo">AL</div>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <p class="tag">Hello, I'm Abdul Latif</p>
+            <h1>Talent Acquisition Executive & Web Developer</h1>
+            <p class="subtitle">
+                Passionate about hiring the right talent and building digital experiences that look good and work even better.
+            </p>
+
+            <button id="downloadBtn" class="btn-primary">Download Resume</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <h2>About Me</h2>
+        <p>
+            I am Abdul Latif, a Talent Acquisition Executive and Web Developer.  
+            I specialize in identifying the right talent for organizations while also creating clean, scalable, and engaging web solutions.
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section" id="skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+
+            <div class="skill-card">
+                <h3>HR & Recruitment</h3>
+                <ul>
+                    <li>Talent Acquisition</li>
+                    <li>Screening & Shortlisting</li>
+                    <li>Interview Handling</li>
+                    <li>Employee Onboarding</li>
+                </ul>
+            </div>
+
+            <div class="skill-card">
+                <h3>Web Development</h3>
+                <ul>
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>Responsive Design</li>
+                    <li>React (Basics)</li>
+                    <li>PHP & MySQL</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+        <h2>Projects</h2>
+
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Car_Hub Website</h3>
+                <p>A full car-selling website developed using HTML, CSS, JS, PHP, and MySQL.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Cure Corner</h3>
+                <p>Healthcare retail project offering medical supplies, wellness products, and consultations.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section" id="experience">
+        <h2>Experience</h2>
+
+        <div class="timeline">
+            <div class="timeline-item">
+                <h3>Talent Acquisition Executive</h3>
+                <p class="time">2025 — Present</p>
+                <p>VCODEZ - Innovating Ideas</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2>Contact Me</h2>
+      
+        <form action="https://formsubmit.co/abdulhajji10101@gmail.com" method="POST">
+      
+          <!-- Protect from spam -->
+          <input type="hidden" name="_captcha" value="false">
+      
+          <!-- Where user enters data -->
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message" placeholder="Your Message" required></textarea>
+      
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        © <span id="year"></span> Abdul Latif. All Rights Reserved.
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
