@@ -21,18 +21,28 @@
         </nav>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-content">
-            <p class="tag">Hello, I'm Abdul Latif</p>
-            <h1>Talent Acquisition Executive & Web Developer</h1>
-            <p class="subtitle">
-                Passionate about hiring the right talent and building digital experiences that look good and work even better.
-            </p>
-
-            <button id="downloadBtn" class="btn-primary">Download Resume</button>
-        </div>
-    </section>
+   <!-- Hero Section -->
+<section class="hero">
+    <div class="hero-container">
+  
+      <!-- Left Content -->
+      <div class="hero-content">
+        <p class="tag">Hello, I'm Abdul Latif</p>
+        <h1>Talent Acquisition Executive & Web Developer</h1>
+        <p class="subtitle">
+          Passionate about hiring the right talent and building digital experiences that look good and work even better.
+        </p>
+        <button id="downloadBtn" class="btn-primary">Download Resume</button>
+      </div>
+  
+      <!-- Right Image -->
+      <div class="hero-image">
+        <img src="DSC_1255.jpg" alt="Abdul Latif">
+      </div>
+  
+    </div>
+  </section>
+  
 
     <!-- About Section -->
     <section class="section" id="about">
@@ -81,9 +91,11 @@
             </div>
 
             <div class="project-card">
-                <h3>Cure Corner</h3>
-                <p>Healthcare retail project offering medical supplies, wellness products, and consultations.</p>
-            </div>
+                <h3>Smart Gas Monitoring System (IoT)</h3>
+                <p>
+                  An IoT-based air and gas monitoring system using ESP8266, MQ-2, MQ-7, and MQ-135 sensors with real-time data visualization using ThingSpeak.
+                </p>
+              </div>
         </div>
     </section>
 
@@ -99,18 +111,24 @@
             </div>
         </div>
     </section>
+    
 
     <!-- Contact Section -->
     <section class="contact" id="contact">
         <h2>Contact Me</h2>
       
         <form action="https://formsubmit.co/abdulhajji10101@gmail.com" method="POST">
-        <input type="hidden" name="_captcha" value="false">
-        <input type="text" name="name" placeholder="Your Name" required>
-        <input type="email" name="email" placeholder="Your Email" required>
-        <textarea name="message" placeholder="Your Message" required></textarea>
-        <button type="submit">Send Message</button>
-      </form>
+      
+          <!-- Protect from spam -->
+          <input type="hidden" name="_captcha" value="false">
+      
+          <!-- Where user enters data -->
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message" placeholder="Your Message" required></textarea>
+      
+          <button type="submit">Send Message</button>
+        </form>
       </section>
 
     <!-- Footer -->
@@ -121,5 +139,4 @@
     <script src="script.js"></script>
 
 </body>
-
 </html>
